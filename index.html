@@ -61,7 +61,7 @@
   </header>
   <main class="site-main">
     <section class="site-section section-hero">
-      <div class="container">
+      <div class="container section-hero__container">
         <div class="section-hero__background">
           <div class="section-hero__content">
             <h1 class="section-hero__title">
@@ -140,14 +140,6 @@
       <!--/container-->
     </section>
     <section class="site-section section-work">
-      <div class="container">
-        <h2 class="site-section__title section-work__title">
-
-        </h2>
-      </div>
-      <!--/container-->
-    </section>
-    <section class="site-section">
       <div class="container">
         <h2 class="site-section__title">
           Как мы&nbsp;работаем
@@ -359,9 +351,9 @@
                     fill="#7C7C7C" />
                 </g>
                 <defs>
-                  <clipPath id="clip0_166612_3111">
+                  <clippath id="clip0_166612_3111">
                     <rect width="60" height="60" fill="white" transform="matrix(-1 0 0 1 60 0)" />
-                  </clipPath>
+                  </clippath>
                 </defs>
               </svg>
 
@@ -373,12 +365,31 @@
         <h2 class="main-footer__form-title">
           Оставить&nbsp;заявку
         </h2>
-
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="main-footer__form">
+          <div class="main-footer__form-top">
+            <input type="text" name="name" id="name" placeholder="Фамилия, имя и отчество*" required
+              class="main-footer__form-item">
+            <input type="email" name="email" id="email" placeholder="E-mail*" required class="main-footer__form-item">
+            <textarea name="message" id="message" placeholder="Сообщение" required
+              class="main-footer__form-item main-footer__form-textarea">
+            </textarea>
+          </div>
+          <div class="main-footer__form-bottom">
+            <button type="submit" class="btn btn-reset main-footer__form-btn">
+              Отправить данные
+            </button>
+            <input type="checkbox" name="confirm" id="confirm" required class="main-footer__form-check">
+            <span class="main-footer__form-span">Согласен на&nbsp;обработку данных</span>
+          </div>
+        </form>
 
       </div>
       <div class="main-footer__block  main-footer__block_right">
         <p class="main-footer__text">
-          Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с&nbsp;широким активом обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании стандартных подходов.
+          Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
+          разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким
+          образом, консультация с&nbsp;широким активом обеспечивает широкому кругу (специалистов) участие
+          в&nbsp;формировании стандартных подходов
         </p>
       </div>
     </div>
