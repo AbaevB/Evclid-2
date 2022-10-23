@@ -36,6 +36,81 @@
   font-style: normal;
 }
 
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
 body  {
   font-family: 'Montserrat', sans-serif ;
+  min-width: 361px;
+  margin: 0 auto;
+  background-color: var(--main-color);
+  color: var(--text-color);
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+p:not(:last-child)  {
+  margin-bottom: 1em;
+}
+
+figure  {
+margin: 0;
+}
+
+/*------------global------------*/
+
+.list-reset {
+  margin: 0;
+  list-style: none;
+}
+
+.container  {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-title  {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58.51px;
+}
+
+/*------buttons------*/
+
+.btn-reset  {
+
+}
+
+/*------colors------*/
+
+:root {
+  --main-color: #fff;
+  --accent-color: #222;
+  --text-color: #333;
+  --second-text-color: #cacaca;
+  --form-background: #414141;
+  --btn-background: #ff9900;
+  --btn-hover: rgba(255, 153, 0, .7);
+  --active-color: #e1670e;
+  --black-btn-color: #000;
+  --blac-active-color: #666;
 }
