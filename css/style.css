@@ -1,40 +1,4 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: url("/fonts/montserrat-regular-webfont.woff2") format("woff2"),
-    url("/fonts/montserrat-regular-webfont.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url("/fonts/montserrat-medium-webfont.woff2") format("woff2"),
-    url("/fonts/montserrat-medium-webfont.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url("/fonts/montserrat-semibold-webfont.woff2") format("woff2") url("/fonts/montserrat-semibold-webfont.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url("/fonts/montserrat-bold-webfont.woff2") format("woff2") url("/fonts/montserrat-bold-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url("/fonts/montserrat-extrabold-webfont.woff2") format("woff2") url("/fonts/montserrat-extrabold-webfont.woff") format("woff");
-  font-weight: 800;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 html {
   box-sizing: border-box;
@@ -177,7 +141,7 @@ figure {
 }
 
 .nav__item:not(:last-child) {
-  margin-right: 85.3px;
+  margin-right: 81px;
 }
 
 .nav__link {
@@ -222,9 +186,6 @@ figure {
 }
 
 .section-hero__content {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-between;*/
   max-width: 875px;
   padding-top: 100px;
 }
