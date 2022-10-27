@@ -208,8 +208,8 @@ figure {
 }
 
 .section-hero__btn  {
-  padding: 24.8px 36.62px;
-  font-size: 23.46px;
+  padding: 25.3px 36.62px;
+  font-size: 24px;
   background-color: var(--btn-background);
   transition-property: background-color;
   transition-duration: .3s;
@@ -351,7 +351,105 @@ figure {
   line-height: 200%;
 }
 
+/*-------------section-work------------*/
 
+.section-work__title  {
+  margin-bottom: 52px;
+}
 
+.section-work__nav  {
+  display: flex;
+  align-items: center;
+  margin-bottom: 49px;
+}
 
+.nav__item_work:not(:last-child) {
+  margin-right: 86px;
+}
+
+.section-work__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.94px;
+}
+
+.section-work__article  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-work__article-content  {
+  min-width: 758px;
+  margin-right: 142px;
+}
+
+.section-work__article-title  {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.section-work__article-text {
+  margin-bottom: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.section-work__buttons  {
+  display: flex;
+}
+
+.section-work__btn:not(:last-child) {
+  margin-right: 32px;
+}
+
+.btn-orange  {
+  padding: 20px 38px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+  background-color: var(--btn-background) ;
+  transition-property: background-color;
+  transition-duration: .3s;
+  transition-delay: .3s;
+  transition-timing-function: ease;
+}
+
+.btn-black  {
+  padding: 20px 38px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  transition-property: background-color, border-color, color;
+  transition-duration: .3s;
+  transition-delay: .3s;
+  transition-timing-function: ease;
+}
+
+.btn-black:hover:not(:active) {
+  color: var(--main-color);
+  background-color: var(--blac-active-color);
+  border-color: var(--blac-active-color);
+}
+
+.btn-black:focus  {
+  color: var(--main-color);
+  background-color: var(--blac-active-color);
+  border-color: var(--blac-active-color);
+}
+
+.btn-black:active {
+  color: var(--main-color);
+  background-color: var(--black-btn-color);
+  border-color: var(--black-btn-color);
+}
+
+.section-work__figure, .section-work__image {
+max-width: 870px;
+max-height: 460px;
+}
 
