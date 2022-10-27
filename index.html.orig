@@ -65,7 +65,7 @@
         <div class="section-hero__background">
           <div class="section-hero__content">
             <h1 class="section-hero__title">
-              Проектные решения любой сложности
+              Проектные&nbsp;решения любой сложности
             </h1>
             <p class="section-hero__descr">
               Есть над чем задуматься: базовые сценарии&nbsp;поведения пользователей и по сей день остаются уделом
@@ -94,9 +94,19 @@
           в&nbsp;отношении поставленных задач. Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что высококачественный
           прототип будущего проекта способствует повышению качества экспериментов.
         </p>
+
         <div class="section-about__content">
           <div class="section-about__block section-about__block_left">
             <div class="section-about__darker">
+<<<<<<< HEAD
+              <div class="section-about__text">
+                <p class="section-about__p">
+                  Принимая во&nbsp;внимание показатели успешности, перспективное планирование способствует подготовке
+                  и&nbsp;реализации новых принципов.
+                </p>
+              </div>
+              <button class="btn-reset btn btn-transparent">
+=======
               <div class="section-about__left-content">
                 <p class="section-about__white-text">
                   Принимая во&nbsp;внимание показатели успешности, перспективное планирование способствует подготовке
@@ -105,13 +115,17 @@
 
               </div>
               <button class="btn-reset btn-transparent">
+>>>>>>> 2f7bb87d2370325aed7ea95ff73a64b301dcd235
                 Подробнее
               </button>
             </div>
           </div>
           <div class="section-about__block section-about__block_right">
             <article class="section-about__article section-about__article_1">
+<<<<<<< HEAD
+=======
 
+>>>>>>> 2f7bb87d2370325aed7ea95ff73a64b301dcd235
               <div class="section-about__article-content">
                 <h3 class="section-about__article-title">
                   Консультация с&nbsp;широким&nbsp;активом
@@ -120,11 +134,16 @@
                   А&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash; безусловно открывает новые горизонты
                   для как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.
                 </p>
+
               </div>
             </article>
             <article class="section-about__article section-about__article_2">
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2f7bb87d2370325aed7ea95ff73a64b301dcd235
               <div class="section-about__article-content">
-                <h3 class="section-about__article-title">
+                <h3 class="section-about__article-title ">
                   В&nbsp;своём стремлении повысить
                 </h3>
                 <p class="section-about__article-text">
@@ -133,6 +152,7 @@
                 </p>
               </div>
             </article>
+
           </div>
         </div>
       </div>
@@ -143,24 +163,42 @@
         <h2 class="section-title section-work__title">
           Как мы&nbsp;работаем
         </h2>
+<<<<<<< HEAD
+        <nav class="section-work__nav">
+          <ul class="list-reset nav__list">
+            <li class="nav__item">
+=======
         <nav class="nav section-work__nav">
           <ul class="list-reset nav__list section-work__list">
             <li class="nav__item section-work__item">
+>>>>>>> 2f7bb87d2370325aed7ea95ff73a64b301dcd235
               <a href="#step-1" class="section-work__link">
                 1 шаг
               </a>
             </li>
+<<<<<<< HEAD
+            <li class="nav__item">
+=======
             <li class="nav__item section-work__item">
+>>>>>>> 2f7bb87d2370325aed7ea95ff73a64b301dcd235
               <a href="#step-2" class="section-work__link">
                 2 шаг
               </a>
             </li>
+<<<<<<< HEAD
+            <li class="nav__item">
+=======
             <li class="nav__item section-work__item">
+>>>>>>> 2f7bb87d2370325aed7ea95ff73a64b301dcd235
               <a href="#step-3" class="section-work__link">
                 3 шаг
               </a>
             </li>
+<<<<<<< HEAD
+            <li class="nav__item">
+=======
             <li class="nav__item section-work__item">
+>>>>>>> 2f7bb87d2370325aed7ea95ff73a64b301dcd235
               <a href="#step-4" class="section-work__link">
                 4 шаг
               </a>
@@ -182,8 +220,9 @@
               нанотехнологии освещают чрезвычайно интересные особенности картины в&nbsp;целом, однако конкретные выводы,
               разумеется, призваны к&nbsp;ответу.
             </p>
+
             <div class="section-work__buttons">
-              <button class="btn-reset btn section-work__btn">
+              <button class="btn-reset btn btn-orange section-work__btn">
                 Подробнее
               </button>
               <button class="btn-reset btn-white section-work__btn">
@@ -193,7 +232,11 @@
           </div>
           <!--/content-->
           <figure class="section-work__figure">
+<<<<<<< HEAD
+            <img src="/img/work-image-1.jpg" alt="1 шаг" class="section-work__image">
+=======
             <img src="/img/work-image-1.jpg" alt="Консультация" class="section-work__image">
+>>>>>>> 2f7bb87d2370325aed7ea95ff73a64b301dcd235
           </figure>
         </article>
       </div>
@@ -394,7 +437,7 @@
       </div>
     </div>
     <!--/container-->
-  </footer>
+   </footer>
 </body>
 
 </html>
