@@ -1368,6 +1368,11 @@ p {
   line-height: 200%;
 }
 
+.copy-red {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: red;
+}
 
 /*-------------------media-1680-------------------*/
 
